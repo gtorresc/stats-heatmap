@@ -1,0 +1,12 @@
+{
+  "name": "gtorresc",
+  "owner": { "name": "gtorresc", "url": "https://github.com/gtorresc" },
+  "description": "gtorresc's Claude Code mods",
+  "plugins": [
+    {
+      "name": "stats-heatmap",
+      "source": "./",
+      "description": "Brings back the Claude Code stats view: stat cards and a calendar-style activity heatmap in a pane beside the chat"
+    }
+  ]
+}
