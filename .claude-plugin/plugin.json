@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Brings back the Claude Code stats view: stat cards and a calendar-style activity heatmap in a pane beside the chat",
   "author": { "name": "gtorresc", "url": "https://github.com/gtorresc" },
-  "homepage": "https://github.com/gtorresc/claude-heatmap",
-  "repository": "https://github.com/gtorresc/claude-heatmap",
+  "homepage": "https://github.com/gtorresc/stats-heatmap",
+  "repository": "https://github.com/gtorresc/stats-heatmap",
   "license": "MIT",
   "keywords": ["stats", "heatmap", "usage", "activity"],
   "types": "./types/index.d.ts"

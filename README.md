@@ -1,4 +1,4 @@
-# claude-heatmap
+# stats-heatmap
 
 Bring back the old Claude Code stats view: your sessions, messages, tokens, streaks and a calendar-style activity heatmap, in a pane beside the chat.
 
@@ -20,7 +20,7 @@ Bring back the old Claude Code stats view: your sessions, messages, tokens, stre
 In a Claude Code terminal session:
 
 ```
-/plugin install stats-heatmap --marketplace gtorresc/claude-heatmap
+/plugin install stats-heatmap --marketplace gtorresc/stats-heatmap
 ```
 
 Answer `y` to **Add marketplace?**, then pick a scope (**user** makes it load in every session). Once the marketplace is added, `/plugin install stats-heatmap@gtorresc` works too.
@@ -28,10 +28,10 @@ Answer `y` to **Add marketplace?**, then pick a scope (**user** makes it load in
 From a shell:
 
 ```bash
-claude plugin install stats-heatmap --marketplace gtorresc/claude-heatmap
+claude plugin install stats-heatmap --marketplace gtorresc/stats-heatmap
 ```
 
-In the desktop app, where `/plugin` doesn't run: click **+** next to the prompt box, then **Plugins**, **Add marketplace** with `gtorresc/claude-heatmap`, then **Add plugin**. A plugin installed from a terminal at the user scope also loads in the desktop app.
+In the desktop app, where `/plugin` doesn't run: click **+** next to the prompt box, then **Plugins**, **Add marketplace** with `gtorresc/stats-heatmap`, then **Add plugin**. A plugin installed from a terminal at the user scope also loads in the desktop app.
 
 ## Usage
 
@@ -55,8 +55,8 @@ This mod was built entirely by **Claude**, inside Claude Code, using Claude Code
 ## Development
 
 ```bash
-git clone https://github.com/gtorresc/claude-heatmap.git
-cd claude-heatmap
+git clone https://github.com/gtorresc/stats-heatmap.git
+cd stats-heatmap
 claude plugin validate .   # checks the manifest and the hooks module
 claude plugin test .       # runs tests/pane.test.tsx
 claude --plugin-dir .      # starts a session with your local copy loaded
